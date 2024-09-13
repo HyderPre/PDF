@@ -1,0 +1,42 @@
+body, body.bootstrap-override {
+    color: var(--dl-color-theme-neutral-dark) ;
+    background: var(--dl-color-theme-neutral-light)  !important;
+    fill: var(--dl-color-theme-neutral-dark);
+    font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5; /* Light background color */
+      color: #333; /* Dark text color for readability */
+  }
+    .faq-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff; /* Background color for FAQ section */
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .faq-container h2 {
+      color: #0044cc; /* Example color for the heading */
+    }
+    .faq-item {
+      margin-bottom: 15px;
+    }
+    .faq-item h3 {
+      margin: 0;
+      padding: 10px;
+      background-color: #e6e6e6; /* Background color for FAQ question */
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .faq-item p {
+      margin: 0;
+      padding: 10px;
+      background-color: #f9f9f9; /* Background color for FAQ answer */
+      border-left: 3px solid #0044cc; /* Border color to match heading */
+      border-radius: 4px;
+      display: none; /* Initially hidden */
+    }
+    .faq-item.active p {
+      display: block; /* Show the answer when the item is active */
+    }
